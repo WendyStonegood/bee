@@ -1,0 +1,136 @@
+    h1, h2, h3, h4, p, body {
+        font-family: "Proxima Nova", sans-serif;
+        }
+
+
+
+ hr {
+            border: 2px solid #EF41C4;
+            margin: 10px;
+        }
+
+      .logo {
+  max-width: 100%;
+               height: auto;
+               margin: 10px;
+}
+        
+        .center-image {
+            text-align: center;
+        }
+
+
+.body-background {
+    background-color: lightgray;
+    height: 100%;
+}
+
+
+.my-header {
+            color: white;
+            font-weight: 600;
+            padding: 45px;
+            text-align: center;
+        }
+
+@media all and (min-width: 960px) {
+    body{
+        font-size: 18px;
+    }
+}
+ 
+@media all and (max-width: 959px) and (min-width: 600px) {
+    body{
+        font-size: 14px;
+    }
+}
+ 
+@media all and (max-width: 599px) and (min-width: 320px) {
+    body{
+        font-size: 12px;
+    }
+ 
+}
+
+
+
+
+
+        .search-text{
+	margin-top:50px;
+	background-color:#fff;
+	padding-top:60px;
+	padding-bottom:60px;
+}
+	
+.search-text .input-search{
+	height:45px;
+	width:400px;
+	padding-left:20px;
+    color:#333;
+} 
+
+.search-text .btn-search{
+	background-color:lightgrey;
+	border:1px solid #FFF;
+	color:#333;
+	padding: 8px 22px;
+}
+
+.search-text  .btn-search:hover{
+	background-color:darkorange;
+	color:#000;
+}
+
+.copyright{
+    background-color:lightgrey;
+}
+
+.copyright p{
+   margin:15px 0px;
+    font-size: 12px;
+}
+
+footer{
+	background-color:#222222;
+	padding: 60px 0px;
+}
+
+footer .menu li a{
+	color:#b1aca1;
+	padding:10px;
+	text-decoration:none;
+}
+
+footer .menu li a:hover{
+	color:#7dabdb;
+}
+
+.fa.fa-facebook , .fa.fa-twitter, .fa.fa-linkedin ,.fa.fa-tumblr , .fa.fa-instagram {
+	color:lightgrey;
+	font-size:30px;
+	
+}
+
+.fa.fa-facebook:hover, .fa.fa-twitter:hover, .fa.fa-linkedin:hover  ,.fa.fa-tumblr:hover  ,.fa.fa-instagram:hover  {
+	color:darkorange;
+}
+       .item {
+            text-align: center;
+            padding: 0 5px;
+            width: 150px;
+            height: 30px;
+        }
+        
+        a {
+            color:lightgrey;
+            text-transform:uppercase;
+            letter-spacing: 0.025em;
+            
+        }
+        a:hover {
+            color:darkorange;
+            text-decoration: none;
+        }
+        
+       
