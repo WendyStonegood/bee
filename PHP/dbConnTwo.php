@@ -1,16 +1,16 @@
 <?php
 //fetch.php
-$connect = mysqli_connect("localhost", "root", "root", "searchEngine");
+$connect = mysqli_connect("us-cdbr-iron-east-04.cleardb.net", "b9fdd61686eabb", "536c2c77", "heroku_281864c389c4011");
 $output = '';
 if(isset($_POST["query"]))
 {
  $search = mysqli_real_escape_string($connect, $_POST["query"]);
  $query = "
-  SELECT * FROM BESearch 
+  SELECT * FROM BESearch
   WHERE website_url LIKE '%".$search."%'
-  OR title LIKE '%".$search."%' 
-  OR description LIKE '%".$search."%' 
-  OR meta_keywords LIKE '%".$search."%' 
+  OR title LIKE '%".$search."%'
+  OR description LIKE '%".$search."%'
+  OR meta_keywords LIKE '%".$search."%'
   OR biz_name LIKE '%".$search."%'
  ";
 }
@@ -54,5 +54,3 @@ else
 }
 
 ?>
-
-
