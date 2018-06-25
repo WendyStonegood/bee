@@ -115,7 +115,7 @@
   width:100%;
   height:100%;
   height:calc(100% - 1px);
-  background-image:url('images/kyle-ellefson-168742.jpg');
+  background-image:url('./IMAGES/kyle-ellefson-168742.jpg');
   background-size:cover;
 }
 
@@ -272,12 +272,12 @@ footer .menu li a:hover{
     <nav class="navbar navbar-light navbar-toggleable-sm justify-content-center" style="background-color:white; margin-bottom: 10px;">
   <div class="navbarnav">
     <ul class="navbar-nav">
-      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="./PHP/About.php">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="./PHP/SearchTwo.php">Search</a></li>
-        <li class="nav-item"><a class="nav-link" href="./PHP/ideas.php">Ideas</a></li>
-        <li class="nav-item"><a class="nav-link" href="./PHP/contact.php">Contact</a></li>
-        <li class="nav-item"><a class="nav-link" href="./PHP/signup.php">Login</a></li>
+      <li class="nav-item"><a class="nav-link" href="home.php">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="About.php">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="SearchTwo.php">Search</a></li>
+        <li class="nav-item"><a class="nav-link" href="ideas.php">Ideas</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="signup.php">Login</a></li>
       </ul>
     </div>
     </nav>
@@ -327,7 +327,7 @@ footer .menu li a:hover{
             <div class="card-header border-0">
             VOLUNTEER
             </div>
-        <img class="card-img-top align-self-center" src="images/volunteer-icon.png" alt="Card image cap" style="padding-top: 0px; padding-bottom: 20px; height: 150px;">
+        <img class="card-img-top align-self-center" src="./IMAGES/volunteer-icon.png" alt="Card image cap" style="padding-top: 0px; padding-bottom: 20px; height: 150px;">
             <div class="card-body">
                 <p class="card-text">
                 The Force is strong with this one. I have you now. As you wish. The plans you refer to will
@@ -343,7 +343,7 @@ footer .menu li a:hover{
             <div class="card-header border-0">
             SHARE
             </div>
-        <img class="card-img-top align-self-center" src="images/share-icon.png" alt="Card image cap" style="padding-top: 0px; padding-bottom: 20px; height: 150px;">
+        <img class="card-img-top align-self-center" src="./IMAGES/share-icon.png" alt="Card image cap" style="padding-top: 0px; padding-bottom: 20px; height: 150px;">
             <div class="card-body">
                 <p class="card-text">
                 *Insistently* Bow ties are cool! Come on Amy, I'm a normal bloke, tell me what normal blokes
@@ -360,7 +360,7 @@ footer .menu li a:hover{
             <div class="card-header border-0">
             GET INSPIRED
             </div>
-        <img class="card-img-top align-self-center" src="images/discover-icon.png" alt="Card image cap" style="padding-top: 0px; padding-bottom: 20px; height: 150px;">
+        <img class="card-img-top align-self-center" src="./IMAGES/discover-icon.png" alt="Card image cap" style="padding-top: 0px; padding-bottom: 20px; height: 150px;">
             <div class="card-body">
                 <p class="card-text">
                 And wow! Hey! What's this thing suddenly coming towards me very fast? Very, very fast. So big
@@ -427,11 +427,11 @@ footer .menu li a:hover{
 
           <div class="row justify-content-center">
                <div class="d-flex justify-content-center">
-                           <div class="item"><a href="./PHP/home.php">Home</a></div>
-                            <div class="item"><a href="./PHP/About.php">About</a></div>
-                           <div class="item"><a href="./PHP/FAQ.php">FAQ</a></div>
-                            <div class="item"><a href="./PHP/welcome.php">LOGOUT</a></div>
-                           <div class="item"><a href="./PHP/contact_form.php">Contact</a></div>
+                           <div class="item"><a href="home.php">Home</a></div>
+                            <div class="item"><a href="About.php">About</a></div>
+                           <div class="item"><a href="FAQ.php">FAQ</a></div>
+                            <div class="item"><a href="welcome.php">LOGOUT</a></div>
+                           <div class="item"><a href="contact_form.php">Contact</a></div>
 
             </div>
       </div>

@@ -166,7 +166,7 @@ a:hover.send-btn {
 
           <div class="row justify-content-center">
                <div class="d-flex justify-content-center">
-                           <div class="item"><a href="./index.html">Home</a></div>
+                           <div class="item"><a href="home.php">Home</a></div>
                             <div class="item"><a href="About.php">About</a></div>
                            <div class="item"><a href="FAQ.php">FAQ</a></div>
                             <div class="item"><a href="welcome.php">LOGOUT</a></div>
