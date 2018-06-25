@@ -68,7 +68,7 @@ a:hover.send-btn {
               <li class="nav-item"><a class="nav-link" href="About.php">About</a></li>
               <li class="nav-item"><a class="nav-link" href="SearchTwo.php">Search</a></li>
               <li class="nav-item"><a class="nav-link" href="ideas.php">Ideas</a></li>
-              <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact_form.php">Contact</a></li>
               <li class="nav-item"><a class="nav-link" href="signup.php">Login</a></li>
             </ul>
         </div>
@@ -107,7 +107,7 @@ a:hover.send-btn {
                 <!--Grid column-->
                 <div class="col-sm-12 justify-content-center">
                     <div class="text-center">
-                        <a href="contact.php" class="send-btn">CONTACT US</a>
+                        <a href="contact_form.php" class="send-btn">CONTACT US</a>
                     </div><br>
                 </div>
                 <!--Grid column-->
