@@ -268,7 +268,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
   width:100%;
   height:100%;
   height:calc(100% - 1px);
-  background-image:url('images/kyle-ellefson-168742.jpg');
+  background-image:url('/images/kyle-ellefson-168742.jpg');
   background-size:cover;
 }
 
@@ -396,12 +396,12 @@ footer .menu li a:hover{
     <nav class="navbar navbar-light navbar-toggleable-sm justify-content-center" style="background-color:white; margin-bottom: 10px;">
   <div class="navbarnav">
     <ul class="navbar-nav">
-      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="./PHP/About.php">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="./PHP/SearchTwo.php">Search</a></li>
-        <li class="nav-item"><a class="nav-link" href="./PHP/ideas.php">Ideas</a></li>
-        <li class="nav-item"><a class="nav-link" href="./PHP/contact.php">Contact</a></li>
-        <li class="nav-item"><a class="nav-link" href="./PHP/signup.php">Login</a></li>
+      <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="About.php">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="SearchTwo.php">Search</a></li>
+        <li class="nav-item"><a class="nav-link" href=".ideas.php">Ideas</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="signup.php">Login</a></li>
       </ul>
     </div>
     </nav>
@@ -409,9 +409,7 @@ footer .menu li a:hover{
 
     <div class="container" id="sign-up">
         <div class="container" id="sign-up-header">
-        <h2 style=" font-size: 2em;
-               letter-spacing: 0.09em; font-weight:600;">SIGN UP</h2>
-
+        <h2 style=" font-size: 2em; letter-spacing: 0.09em; font-weight:600;">SIGN UP</h2>
               </div>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" style="padding:10px;">
             <div class="form-group <?php echo (!empty($name_err)) ? 'has-error' : ''; ?>">
