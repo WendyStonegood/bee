@@ -64,7 +64,7 @@ a:hover.send-btn {
     <nav class="navbar navbar-light navbar-toggleable-sm justify-content-center" style="background-color:white; margin-bottom: 10px;">
         <div class="navbarnav">
           <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="home.php">Home</a></li>
               <li class="nav-item"><a class="nav-link" href="About.php">About</a></li>
               <li class="nav-item"><a class="nav-link" href="SearchTwo.php">Search</a></li>
               <li class="nav-item"><a class="nav-link" href="ideas.php">Ideas</a></li>
