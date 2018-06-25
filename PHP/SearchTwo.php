@@ -76,12 +76,12 @@ padding-bottom:10px;
     <nav class="navbar navbar-light navbar-toggleable-sm justify-content-center" style="background-color:white; margin-bottom: 10px;">
         <div class="navbarnav">
           <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="./PHP/About.php">About</a></li>
-              <li class="nav-item"><a class="nav-link" href="./PHP/SearchTwo.php">Search</a></li>
-              <li class="nav-item"><a class="nav-link" href="./PHP/ideas.php">Ideas</a></li>
-              <li class="nav-item"><a class="nav-link" href="./PHP/contact.php">Contact</a></li>
-              <li class="nav-item"><a class="nav-link" href="./PHP/signup.php">Login</a></li>
+            <li class="nav-item"><a class="nav-link" href="home.php">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="About.php">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="SearchTwo.php">Search</a></li>
+              <li class="nav-item"><a class="nav-link" href="ideas.php">Ideas</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact_form.php">Contact</a></li>
+              <li class="nav-item"><a class="nav-link" href="signup.php">Login</a></li>
             </ul>
         </div>
     </nav>
@@ -150,11 +150,11 @@ padding-bottom:10px;
 
           <div class="row justify-content-center">
                <div class="d-flex justify-content-center">
-                           <div class="item"><a href="./PHP/home.php">Home</a></div>
-                            <div class="item"><a href="./PHP/About.php">About</a></div>
-                           <div class="item"><a href="./PHP/FAQ.php">FAQ</a></div>
-                            <div class="item"><a href="./PHP/welcome.php">LOGOUT</a></div>
-                           <div class="item"><a href="./PHP/contact_form.php">Contact</a></div>
+                           <div class="item"><a href="home.php">Home</a></div>
+                            <div class="item"><a href="About.php">About</a></div>
+                           <div class="item"><a href="FAQ.php">FAQ</a></div>
+                            <div class="item"><a href="welcome.php">LOGOUT</a></div>
+                           <div class="item"><a href="contact_form.php">Contact</a></div>
 
             </div>
       </div>

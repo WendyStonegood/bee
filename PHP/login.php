@@ -247,7 +247,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
   width:100%;
   height:100%;
   height:calc(100% - 1px);
-  background-image:url('images/kyle-ellefson-168742.jpg');
+  background-image:url('./IMAGES/kyle-ellefson-168742.jpg');
   background-size:cover;
 }
 
@@ -378,7 +378,7 @@ footer .menu li a:hover{
         <li class="nav-item"><a class="nav-link" href="About.php">About</a></li>
         <li class="nav-item"><a class="nav-link" href="SearchTwo.php">Search</a></li>
         <li class="nav-item"><a class="nav-link" href="ideas.php">Ideas</a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact_form.php">Contact</a></li>
         <li class="nav-item"><a class="nav-link" href="signup.php">Login</a></li>
       </ul>
     </div>
