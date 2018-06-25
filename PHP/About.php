@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <link rel="stylesheet" type="text/css" href="/CSS/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/CSS/BeEvergreenCSS.css">
+  <link rel="stylesheet" type="text/css" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/BeEvergreenCSS.css">
   <title>Be Evergreen Template</title>
 
     <style>
@@ -64,12 +64,12 @@ a:hover.send-btn {
     <nav class="navbar navbar-light navbar-toggleable-sm justify-content-center" style="background-color:white; margin-bottom: 10px;">
         <div class="navbarnav">
           <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="./PHP/About.php">About</a></li>
-              <li class="nav-item"><a class="nav-link" href="./PHP/SearchTwo.php">Search</a></li>
-              <li class="nav-item"><a class="nav-link" href="./PHP/ideas.php">Ideas</a></li>
-              <li class="nav-item"><a class="nav-link" href="./PHP/contact.php">Contact</a></li>
-              <li class="nav-item"><a class="nav-link" href="./PHP/signup.php">Login</a></li>
+            <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="About.php">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="SearchTwo.php">Search</a></li>
+              <li class="nav-item"><a class="nav-link" href="ideas.php">Ideas</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+              <li class="nav-item"><a class="nav-link" href="signup.php">Login</a></li>
             </ul>
         </div>
     </nav>
@@ -166,11 +166,11 @@ a:hover.send-btn {
 
           <div class="row justify-content-center">
                <div class="d-flex justify-content-center">
-                           <div class="item"><a href="./PHP/home.php">Home</a></div>
-                            <div class="item"><a href="./PHP/About.php">About</a></div>
-                           <div class="item"><a href="./PHP/FAQ.php">FAQ</a></div>
-                            <div class="item"><a href="./PHP/welcome.php">LOGOUT</a></div>
-                           <div class="item"><a href="./PHP/contact_form.php">Contact</a></div>
+                           <div class="item"><a href="./index.html">Home</a></div>
+                            <div class="item"><a href="About.php">About</a></div>
+                           <div class="item"><a href="FAQ.php">FAQ</a></div>
+                            <div class="item"><a href="welcome.php">LOGOUT</a></div>
+                           <div class="item"><a href="contact_form.php">Contact</a></div>
 
             </div>
       </div>
