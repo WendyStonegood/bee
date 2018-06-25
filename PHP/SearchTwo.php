@@ -190,7 +190,7 @@ $(document).ready(function(){
  function load_data(query)
  {
   $.ajax({
-   url:"dbConnTwo.php",
+   url:"./PHP/dbConnTwo.php",
    method:"POST",
    data:{query:query},
    success:function(data)
