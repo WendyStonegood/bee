@@ -5,11 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="BeEvergreenCSS.css">
+  <link rel="stylesheet" type="text/css" href="/CSS/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/BeEvergreenCSS.css">
   <title>IDEAS</title>
     <style>
-       
+
         .card-header {
             text-align: center;
             background-color:white;
@@ -22,28 +22,28 @@
             text-decoration:none!important;
             color:darkgrey!important;
         }
-        
+
         a:focus {
             color: darkorange!important;
         }
-        
+
         a:hover {
             color:#F19EE9!important;
         }
-       
+
         .card {
             border:none;
-            
-            
+
+
         }
-        
+
         .container {
              margin:0!important;
             width: 100%;
         }
-        
-      
-       
+
+
+
         h3 {
             text-align: center;
             color:white;
@@ -53,25 +53,25 @@
             padding-right:50px;
             letter-spacing: 0.025em;
         }
-     
-        
-        
-        
+
+
+
+
                 .outer-container {
   background: white;
   position: relative;
   overflow: hidden;
     margin-top:0px;
-                     
+
 }
-        
-        
+
+
         .image-container {
   width: 100%;
 height:auto;
 
 padding-bottom:10px;
-           
+
 }
 
 .skew-container {
@@ -83,7 +83,7 @@ padding-bottom:10px;
   transform-origin: top left;
   transform: skewY(-10deg);
 }
-        
+
 
 
 .content-box {
@@ -93,54 +93,54 @@ padding-bottom:10px;
   transform: skewY(10deg) translateY(-33.33%);
     width: 50%;
 }
-        
+
     </style>
 </head>
  <body class="body-background">
  <!--WHOLE SITE DIV--><div class="container">
 
-   
+
 <!-- LOGO -->
-        
+
         <div class="center-image">
             <img src="https://static1.squarespace.com/static/558c33b1e4b0aeae75bd92db/t/5a7ccbd7652deafb5a71d650/1518128095863/be-evergreen-logo.png?format=750w" href="#" width="300" height="500" class ="logo">
         </div>
-        
+
         <hr>
 <!-- NAV BAR //////ADD LINKS LATER\\\\\\ -->
-        
+
     <nav class="navbar navbar-light navbar-toggleable-sm justify-content-center" style="background-color:white; margin-bottom: 10px;">
         <div class="navbarnav">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="home.php">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="About.php">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="SearchTwo.php">Search</a></li>
-                <li class="nav-item"><a class="nav-link" href="ideas.php">Ideas</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact_form.php">Contact</a></li>
-                <li class="nav-item"><a class="nav-link" href="signup.php">Login</a></li>
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="./PHP/About.php">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="./PHP/SearchTwo.php">Search</a></li>
+              <li class="nav-item"><a class="nav-link" href="./PHP/ideas.php">Ideas</a></li>
+              <li class="nav-item"><a class="nav-link" href="./PHP/contact.php">Contact</a></li>
+              <li class="nav-item"><a class="nav-link" href="./PHP/signup.php">Login</a></li>
             </ul>
         </div>
     </nav>
 
     <hr style="margin:0!important;">
-    
-     
-     
-     
-         
+
+
+
+
+
 <div class="outer-container">
   <div class="image-container">
   <div class="skew-container">
-      
+
      </div>
 
-    
+
     <div class="container" style="position:relative; padding:10px;">
         <br>
         <h3>What "good" could you do in the world for the price of a cup of coffee?</h3>
         <br>
         <div class="row">
-            
+
        <div class="col"></div>
             <div class="col-8">
     <div id="accordion" role="tablist" aria-multiselectable="true">
@@ -160,11 +160,11 @@ One Cup<br>
 Two Cup<br>
 Red Cup<br>
 Blue Cup<br>
-          </p> 
+          </p>
 </div>
     </div>
   </div>
-        
+
   <div class="card">
     <div class="card-header" role="tab" id="headingTwo">
       <h5 class="mb-0">
@@ -180,11 +180,11 @@ One Cup<br>
 Two Cup<br>
 Red Cup<br>
 Blue Cup<br>
-          </p> 
+          </p>
         </div>
     </div>
   </div>
-        
+
   <div class="card">
     <div class="card-header" role="tab" id="headingThree">
       <h5 class="mb-0">
@@ -200,11 +200,11 @@ One Cup<br>
 Two Cup<br>
 Red Cup<br>
 Blue Cup<br>
-          </p> 
+          </p>
         </div>
     </div>
   </div>
-        
+
     <div class="card">
     <div class="card-header" role="tab" id="headingFour">
       <h5 class="mb-0">
@@ -220,11 +220,11 @@ One Cup<br>
 Two Cup<br>
 Red Cup<br>
 Blue Cup<br>
-          </p> 
+          </p>
         </div>
     </div>
   </div>
-        
+
     <div class="card">
     <div class="card-header" role="tab" id="headingFive">
       <h5 class="mb-0">
@@ -240,13 +240,13 @@ One Cup<br>
 Two Cup<br>
 Red Cup<br>
 Blue Cup<br>
-          </p> 
+          </p>
         </div>
     </div>
   </div>
-        
-        
-        
+
+
+
         <div class="card">
     <div class="card-header" role="tab" id="headingSix">
       <h5 class="mb-0">
@@ -262,39 +262,39 @@ One Cup<br>
 Two Cup<br>
 Red Cup<br>
 Blue Cup<br>
-          </p> 
+          </p>
         </div>
     </div>
   </div>
-        
-        
+
+
 <!-- ACCORDIAN CONTAINER-->
         </div>
 <!-- COL 8 CONTAINER-->
         </div>
 <!-- COL 2 DIV-->
-        <div class="col"></div> 
+        <div class="col"></div>
 <!-- ROW CONTAINER-->
         </div>
 <!-- ENCOMPASSING CONTAINER-->
         </div>
-    
-         
-      
+
+
+
     </div>
     </div>
-     
-     
-     
-    
-    
+
+
+
+
+
 <!--FOOTER-->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-   
-    <div class="search-text"> 
+
+    <div class="search-text">
        <div class="container">
          <div class="row text-center justify-content-center">
-         
+
            <div class="form">
                <h4 style="color:darkorange; margin-bottom:10px;">SIGN UP FOR OUR NEWSLETTER</h4>
                 <form id="search-form" class="form-search form-horizontal">
@@ -302,16 +302,16 @@ Blue Cup<br>
                     <button type="submit" class="btn-search">SUBMIT</button>
                 </form>
             </div>
-        
-          </div>         
-       </div>     
+
+          </div>
+       </div>
 	</div>
-     
-     
+
+
     <footer>
        <div class="container">
            <div class="container">
-           
+
                <div class="row justify-content-center">
                     <div class="d-flex justify-content-center" style="padding:20px;">
         <div class="item"><a href="#"><i class="fa fa-facebook fa-2x"></i></a></div>
@@ -319,49 +319,46 @@ Blue Cup<br>
         <div class="item"><a href="#"><i class="fa fa-linkedin fa-2x"></i></a></div>
         <div class="item"><a href="#"><i class="fa fa-tumblr fa-2x"></i></a></div>
         <div class="item"><a href="#"><i class="fa fa-instagram fa-2x"></i></a></div>
-                   </div>                
+                   </div>
                 </div>
-               
-               
+
+
            </div>
-           
+
            <hr>
-           
-                <div class="container" style="padding-top:20px;">
-           
-               <div class="row justify-content-center">
-                    <div class="d-flex justify-content-center">
-                                <div class="item"><a href="home.php">Home</a></div>
-                                 <div class="item"><a href="About.php">About</a></div>
-                                <div class="item"><a href="faq.php">FAQ</a></div>
-                                 <div class="item"><a href="welcome.php">LOGOUT</a></div>
-                                <div class="item"><a href="contact_form.php">Contact</a></div>
-                    
-                 </div>
-           </div>
-           </div>
-        </div> 
-    </footer>
-    
-    
-    <div class="copyright">
-     <div class="container">
-       
-         <div class="row justify-content-center">
-         	<p>Copyright © Be Evergreen 2018 All rights reserved</p>
-         </div>
-         
- 	   </div>
+
+           <div class="container" style="padding-top:20px;">
+
+          <div class="row justify-content-center">
+               <div class="d-flex justify-content-center">
+                           <div class="item"><a href="./PHP/home.php">Home</a></div>
+                            <div class="item"><a href="./PHP/About.php">About</a></div>
+                           <div class="item"><a href="./PHP/FAQ.php">FAQ</a></div>
+                            <div class="item"><a href="./PHP/welcome.php">LOGOUT</a></div>
+                           <div class="item"><a href="./PHP/contact_form.php">Contact</a></div>
+
+            </div>
+      </div>
+      </div>
+   </div>
+ </footer>
+
+
+ <div class="copyright">
+ <div class="container">
+
+    <div class="row justify-content-center">
+     <p>Copyright © Be Evergreen 2018 All rights reserved</p>
     </div>
 
-    
-</div><!-- content container -->
+ </div>
+ </div>
 
 
-
-<script src="js/jquery.slim.min.js"></script>
-<script src="js/tether.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/scripts.js"></script>
-</body>
-</html>
+   <!--WHOLE SITE DIVE--></div>
+   <script src="./JS/jquery.slim.min.js"></script>
+ <script src="./JS/tether.min.js"></script>
+ <script src="./JS/bootstrap.min.js"></script>
+ <script src="./JS/scripts.js"></script>
+ </body>
+ </html>
